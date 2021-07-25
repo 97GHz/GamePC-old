@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+body {
+  background-color: #333333;
+  color: #d6d4c2;
+  font-family: "Nanum Pen Script";
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-top: 3px solid #d6d4c2;
+  border-bottom: 3px solid #d6d4c2;
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  text-align: right;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h3 {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #4169e1;
+}
+a:link {
+  text-decoration: none;
+  color: #4169e1;
+}
+a:visited {
+  text-decoration: none;
+  color: #4169e1;
+}
+a:active {
+  text-decoration: none;
+  color: #4169e1;
+}
+a:hover {
+  text-decoration: none;
+  color: #4169e1;
+}
+
+table {
+  text-align: center;
+}
+
+thead {
+  background-color: #403940;
+}
+
+table,
+tr,
+td {
+  border: 3px solid #d6d4c2;
+  border-collapse: collapse;
+}
+tr,
+td {
+  border: 2px solid #d6d4c2;
+  border-collapse: collapse;
+}
+td {
+  text-align: center;
+  font-size: 20px;
+}
+
+.enable {
+  color: #4169e1;
+}
+
+.disable {
+  color: red;
+}
